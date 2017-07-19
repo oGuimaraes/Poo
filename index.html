@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> New Poo	</title>
+	<link rel="stylesheet" href="css-reset.css"/>
+	<link rel="stylesheet" href="game.css"/>
+</head>
+<body>
+	<div id="scenario" class="scenario"></div>
+	<div class="room-selected">Cozinha</div>
+
+	<div class="status"> 
+		<p id="hungry"> Fome: 0% </p>
+		<p id="sleepy"> Sono: 0% </p>
+		<p id="bursting"> Vontade de urinar: 0% </p> 
+	</div>
+
+	<div class="footer">
+		<div class="footer-column">
+			<button id="previous-scenario" class="button left"> < </button>
+		</div>
+
+		<div class="footer-column">
+			<button id="action-button" class="button">Comer</button>
+			<button id="action-drink" class="button">Beber</button>
+		</div>
+
+		<div class="footer-column">
+			<button id="next-scenario" class="button right"> > </button>
+
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="game.js"></script>	
+</body>
+</html>							
